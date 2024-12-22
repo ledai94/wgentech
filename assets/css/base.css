@@ -16,6 +16,7 @@ html {
   line-height: 22px;
   font-family: "Lato", serif;
   font-weight: 400;
+  color: var(--text-color);
 }
 
 .lato-regular {
@@ -45,6 +46,7 @@ html {
 .w-50 {
   width: 50%;
 }
-.br-16 {
+img,
+.section2__content {
   border-radius: 16px;
 }
