@@ -31,6 +31,7 @@
   }
   .section1__title {
     margin-bottom: 49px;
+    font-size: 40px;
   }
 
   .section1__title,
@@ -66,6 +67,9 @@
   }
   .section2__content {
     padding: 48px;
+  }
+  .section2__content--title {
+    font-size: 20px;
   }
   .section2__content.custom {
     padding: 70px;
