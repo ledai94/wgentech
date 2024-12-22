@@ -15,6 +15,12 @@
   html {
     font-size: 16px;
   }
+
+  .section1__title,
+  .section1__img-wrapper,
+  .section1__description {
+    max-width: 810px;
+  }
 }
 
 /* Desktop */
@@ -23,7 +29,75 @@
   .hide-on-pc {
     display: none;
   }
-  html {
+  .section1__title {
+    margin-bottom: 49px;
+  }
+
+  .section1__title,
+  .section1__img-wrapper,
+  .section1__description {
+    max-width: 810px;
+  }
+  .section1__description--text {
     font-size: 16px;
+  }
+  .section1__img-wrapper {
+    height: 617px;
+    margin-bottom: 49px;
+  }
+  .section1__img-wrapper--left,
+  .section1__img-wrapper--right {
+    height: 100%;
+    width: 49%;
+  }
+  .section2 {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  .section2__content,
+  .section2__img {
+    width: calc(50% - 4px);
+    height: 800px;
+    align-content: end;
+  }
+  .section2__content {
+    padding: 48px;
+  }
+  .section2__content.custom {
+    padding: 70px;
+  }
+  .section2__img img {
+    height: 800px;
+    object-fit: cover;
+  }
+  .section2__content .section2__content--heading {
+    font-family: "Lora";
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+  }
+  .section2__content.custom .section2__content--heading {
+    margin-bottom: 40px;
+    font-size: 64px;
+    line-height: 74px;
+  }
+  .section2 div:nth-child(1) {
+    order: 2;
+  }
+  .section2 div:nth-child(2) {
+    order: 1;
+  }
+  .section2 div:nth-child(3) {
+    order: 3;
+  }
+  .section2 div:nth-child(4) {
+    order: 4;
+  }
+  body {
+    margin: auto;
   }
 }

@@ -18,6 +18,9 @@ html {
   font-weight: 400;
   color: var(--text-color);
 }
+body {
+  max-width: 1440px;
+}
 
 .lato-regular {
   font-family: "Lato", serif;
