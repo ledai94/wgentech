@@ -1,6 +1,9 @@
 :root {
   --white-color: #fff;
   --black-color: #000;
+  --text-color-1: #2c2a29;
+  --text-color: #1f1f1f;
+  --theme-color-1: #f4f0ea;
 }
 
 * {
@@ -9,6 +12,22 @@
 
 html {
   box-sizing: border-box;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Lato", serif;
+  font-weight: 400;
+}
+
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lora-header {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .d-none {
@@ -25,4 +44,7 @@ html {
 
 .w-50 {
   width: 50%;
+}
+.br-16 {
+  border-radius: 16px;
 }
